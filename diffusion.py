@@ -14,6 +14,5 @@ def heat_eq_forward(u, w, h, t):
     ut = idct(ut, axis=1, norm='ortho')
     return ut
 
-
-u = [[1, 1], [2, 2]]
-print(heat_eq_forward(u, 2, 2, 0))
+# u = [[1, 1], [2, 2]]
+# print(heat_eq_forward(u, 2, 2, 0))
